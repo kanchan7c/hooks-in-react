@@ -1,11 +1,14 @@
 import './App.css';
-import UseState from './Hooks/UseState';
+import Forms from './Hooks/Forms';
+// import ToDo from './Hooks/ToDo';
+// import UseState from './Hooks/UseState';
 
 function App() {
   return (
     <div className="App">
-      <UseState />
-
+      {/* <UseState /> */}
+      {/* <ToDo /> */}
+      <Forms />
     </div>
   );
 }
